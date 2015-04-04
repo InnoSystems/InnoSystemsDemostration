@@ -26,7 +26,8 @@ public class HelloHandler extends AbstractHandler {
 		SimpleDateFormat simpleDateFormat = new SimpleDateFormat(
 				"dd.MM.YYYY HH:mm:ss");
 		response.getWriter().println(
-				"<h3>Aktuelle Zeit: " + simpleDateFormat.format(date) + "</h3");
+				"<h3>Aktuelles Datum und Uhrzeit: "
+						+ simpleDateFormat.format(date) + "</h3");
 	}
 
 	/**
