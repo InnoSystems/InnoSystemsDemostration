@@ -1,6 +1,7 @@
 package com.jartur79.helloMaven.HelloMaven;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import javax.servlet.ServletException;
@@ -22,7 +23,10 @@ public class HelloHandler extends AbstractHandler {
 		baseRequest.setHandled(true);
 		response.getWriter().println("<h1>Hello World</h1>");
 		Date date = new Date();
-		response.getWriter().println("<h3>" + date + "</h3");
+		SimpleDateFormat simpleDateFormat = new SimpleDateFormat(
+				"dd.MM.YYYY HH:mm:ss");
+		response.getWriter().println(
+				"<h3>" + simpleDateFormat.format(date) + "</h3");
 	}
 
 	/**
