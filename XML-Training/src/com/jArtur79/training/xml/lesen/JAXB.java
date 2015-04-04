@@ -1,4 +1,4 @@
-package de.galileocomputing.schroedinger.java.kapitel14.terminkalender.lesen;
+package com.jArtur79.training.xml.lesen;
 
 
 import java.io.File;
@@ -10,14 +10,14 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
-import de.galileocomputing.schroedinger.java.kapitel14.terminkalender.jaxb.Besitzer;
+import com.jArtur79.training.xml.objekte.jaxb.Besitzer;
 import de.galileocomputing.schroedinger.java.kapitel14.terminkalender.jaxb.Termin;
 import de.galileocomputing.schroedinger.java.kapitel14.terminkalender.jaxb.Termine;
 import de.galileocomputing.schroedinger.java.kapitel14.terminkalender.jaxb.Terminkalender;
 
 /**
  * 
- * @author Philip Ackermann
+ * @author 
  *
  */
 public class JAXB {
